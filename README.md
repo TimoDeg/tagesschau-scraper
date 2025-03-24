@@ -6,19 +6,20 @@ This project is for learning purposes and is not complete.
 ## 🏗️ Project Structure
 
 ```
-NewsScraper/
-├── src/
-│   ├── analyzer/          # Text analysis components
-│   ├── data/              # Data processing scripts
-│   ├── scraper/           # Web scraping components
-│   ├── ui/                # Streamlit dashboard
-│   ├── paths.py           # Centralized path configuration
-│   └── main.py            # Main application entry point
-├── data/                  # Processed data files
-│   ├── raw/               # Raw scraped articles
-│   └── processed/         # Analyzed word frequencies
-├── requirements.txt       # Python dependencies
-└── README.md              # This file
+
+tagesschau-scraper/
+├── .gitattributes
+├── .gitignore
+├── LICENSE
+├── README.md
+├── requirements.txt
+└── src/
+    ├── analyzer/          # Text analysis components
+    ├── data/              # Data processing scripts
+    ├── scraper/           # Web scraping components
+    ├── ui/                # Streamlit dashboard
+    ├── paths.py           # Centralized path configuration
+    └── main.py            # Main application entry point
 ```
 
 ## ⚙️ Installation
