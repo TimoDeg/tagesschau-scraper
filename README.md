@@ -27,6 +27,7 @@ tagesschau-scraper/
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/NewsScraper.git
+   cd tagesschau-scraper
    ```
 
 2. Install dependencies:
